@@ -83,7 +83,7 @@ exports.forgotPassword = async (req,res)=>{
             html : `<p>Click to reset password :</p>
                     <a href="${resetLink}">${resetLink}</a>`
         })
-        res.json({message:"Reset email sent to email successfully !!!"});
+        res.json({message:"Reset email sent to email successfully1 !!!"});
 
 
 
