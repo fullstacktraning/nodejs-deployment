@@ -76,7 +76,7 @@ exports.forgotPassword = async (req,res)=>{
             }
         });
 
-        const resetLink = `http://localhost:8000/reset-password/${token}`;
+        const resetLink = `http://18.212.78.53:8000/reset-password/${token}`;
         await transporter.sendMail({
             to:user.email,
             subject: "Password Reset",
